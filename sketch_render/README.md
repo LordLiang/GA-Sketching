@@ -1,1 +1,1 @@
-
+First we obtain watertight and simplified meshes via https://github.com/davidstutz/mesh-fusion, then we us Pytorch3D to render depth maps and normal maps. Finnaly, we get sketch from depth and normal via opencv's adaptive threshold algorithm.
