@@ -3,7 +3,7 @@
 ## Introduction
 Sketch-based shape modeling aims to bridge the gap between 2D drawing and 3D modeling by providing an intuitive and accessible approach to create 3D shapes from 2D sketches. However, existing methods still suffer from limitations in reconstruction quality and multi-view interaction friendliness, hindering their practical application. This paper proposes a faithful and user-friendly iterative solution to tackle these limitations by learning geometry-aligned deep implicit functions from one or multiple sketches. Our method lifts 2D sketches to volume-based feature tensors, which align strongly with the output 3D shape, enabling accurate reconstruction and faithful editing. Such a geometry-aligned feature encoding technique is well-suited to iterative modeling since features from different viewpoints can be easily memorized or aggregated. Based on these advantages, we design a unified interactive system for sketch-based shape modeling. It enables users to generate the desired geometry iteratively by drawing sketches from any number of viewpoints. In addition, it allows users to edit the generated surface by making few local modifications.
 ## Setup
-The code is tested on Ubuntu 18.04 with PyTorch 1.12.1 CUDA 11.6 installed. Please follow the following steps to install PyTorch and PyTorch3D first. All experiments are run on a single NVIDIA GeForce RTX 2080 Ti gpu.
+The code is tested on Ubuntu 18.04 with PyTorch 1.12.1 CUDA 11.6 installed. Please follow the following steps to install PyTorch and PyTorch3D first. All experiments are conducted on a single NVIDIA GeForce RTX 2080 Ti gpu.
 ```
 # create and activate the conda environment
 conda create -n gas python=3.9.15
