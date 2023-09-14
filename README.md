@@ -57,3 +57,6 @@ python GA-Sketching-UI/main.py
 ```
 The generated sketches and meshes will be saved in 'cache/'.
 
+## Demo Video
+https://github.com/LordLiang/GA-Sketching/assets/14073173/9ccd2124-80d9-40c6-9f43-c9a961a67624
+
